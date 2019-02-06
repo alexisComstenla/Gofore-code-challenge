@@ -1,0 +1,87 @@
+.radar-page {
+
+  .spinner {
+
+    width: 100%;
+    //background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    overflow: show;
+    margin: auto;
+    position: absolute;
+    color: white;
+    font-size: 3vw;
+    top: 20%;
+
+    // .fa-spin {
+    //     animation-duration: 0.8s;
+    // }
+  }
+
+
+  .extra-size {
+    font-size: 115%;
+    font-style: italic;
+  }
+
+  .map-img {
+    width: auto;
+    height: 30vw;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      .dot {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        background-color: blue;
+        margin-right: 10px;
+
+
+      }
+
+    }
+
+  }
+
+  .gm-style-iw {
+
+
+    h6 {
+      margin-bottom: 0px;
+    }
+
+    hr {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 3px;
+
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+  }
+
+  .card {
+    border: none;
+    border-radius: 0;
+    border-left: 2px solid blue;
+    cursor: pointer;
+
+    &:hover {
+      margin-top: 1 rem;
+      margin-bottom: 1 rem;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
+      width: 100%;
+      //transition: 0.1s cubic-bezier(0.2, 0.4, 0.7, 0.8) all;
+    }
+  }
+}
